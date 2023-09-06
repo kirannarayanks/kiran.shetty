@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <title>Document</title>
+</head>
+<body>
+        <nav class="desktop-nav">
+            <div class="logo">kiran shetty</div>
+
+            <ul class="nav-links">
+                
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <nav id="ham-nav">
+            <div class="logo">Kiran Shetty</div>
+            <div class="ham-menu" onclick="toggle()">
+                <div class="ham-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                
+                    <li><a href="#hello" onclick="togglr()">About</a></li>
+                    <li><a href="#" onclick="togglr()">Skills</a></li>
+                    <li><a href="#" onclick="togglr()">Projects</a></li>
+                    <li><a href="#" onclick="togglr()">Contact</a></li>
+                
+            </div>
+            </div>
+
+        </nav>
+        <section id="profile">
+            <div class="img-container">
+                <img src="images/proPic1.jpg" alt="">
+            </div>
+            <div class="row">
+            <div class="section-text">
+                <p class="section-text-p1">
+                    Hello,I'm
+                </p>
+                <h1 class="title">Kiran Narayan K S</h1>
+                <p class="section-text-p2"> Web Developer</p>
+            </div>
+            
+            <div class="btn-container">
+                <button class="btn btnColor-2" onclick="window.open('../images/proPic.jpg')">
+                Download CV
+                </button>
+                <button class="btn btnColor-1" onclick="window.open('../images/proPic.jpg')">
+                    Contact
+                    </button>
+            </div>
+            <div class="social-container">
+                <img src="images/github.svg"
+                 alt="github.png" 
+                 class="icon"
+                 onclick="location.href='https://www.github.com/kirannarayanks/'">
+                 <img src="images/linkedin.svg" alt="linkedin" class="icon"
+                 onclick="location.href='https://www.linkedin.com/in/knkshetty'">
+            </div>
+        </div>
+        </section>
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
