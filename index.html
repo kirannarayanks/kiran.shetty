@@ -13,8 +13,8 @@
 
             <ul class="nav-links">
                 
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
                 
@@ -30,8 +30,8 @@
             </div>
             <div class="menu-links">
                 
-                    <li><a href="#hello" onclick="togglr()">About</a></li>
-                    <li><a href="#" onclick="togglr()">Skills</a></li>
+                    <li><a href="#about" onclick="togglr()">About</a></li>
+                    <li><a href="#skills" onclick="togglr()">Skills</a></li>
                     <li><a href="#" onclick="togglr()">Projects</a></li>
                     <li><a href="#" onclick="togglr()">Contact</a></li>
                 
@@ -41,7 +41,7 @@
         </nav>
         <section id="profile">
             <div class="img-container">
-                <img src="images/proPic1.jpg" alt="">
+                <img src="images/proPic.jpg" alt="">
             </div>
             <div class="row">
             <div class="section-text">
@@ -65,13 +65,151 @@
                  alt="github.png" 
                  class="icon"
                  onclick="location.href='https://www.github.com/kirannarayanks/'">
-                 <img src="images/linkedin.svg" alt="linkedin" class="icon"
+                 <img src="images/github.svg" alt="linkedin" class="icon"
                  onclick="location.href='https://www.linkedin.com/in/knkshetty'">
             </div>
         </div>
         </section>
 
+        <section id="about">
+            <p class="section-text-p1">
+                Get to know more
+            </p>
+            <h1 class="title">About me</h1>
+            <div class="section-container">
+                <div class="sec-pic-container">
+                    <img src="./images/proPic1.jpg" alt="" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-container">
+                        <div class="details-container">
+                            <img src="./images/building-columns-solid.svg" alt="exp" class="icon">
+                            <h3>Master of Computer Applications</h3>
+                            <p class="section-text-p1">2022-2024</p>
+                            <p class="section-text-p3">Cochin University of Science And Technology , Cochin</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./images/building-columns-solid.svg" alt="exp" class="icon">
+                            <h3>BSc. Mathematics</h3>
+                            <p class="section-text-p1">2019-2022</p>
+                            <p class="section-text-p3">Mahatma Gandhi University, Kottayam</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                             Lorem Ipsum has been the industry's standard dummy text ever since the 
+                             1500s, when an unknown printer took a galley of type and scrambled it to
+                              make a type specimen book. It has survived not only five centuries, but 
+                            </p>
+                    </div>
+                </div>
+                
+            </div>
+            <img src="./images/circle-down-solid.svg" alt="" class="icon arrow" 
+            onclick="location.href='./#skills'">
+        </section>
+        <section id="skills">
+            <p class="section-text-p1">Explore my</p>
+            <h1 class="title">Skills</h1>
+            <div class="skills-details-container">
+                <div class="details-container">
+        
+                    <h2 class="skill-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                    <article>
+                        <img src="./images/circle-check-solid.svg" alt="" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/circle-check-solid.svg" alt="" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/circle-check-solid.svg" alt="" class="icon">
+                        <div>
+                            <h3>Java Script</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/circle-check-solid.svg" alt="" class="icon">
+                        <div>
+                            <h3>BootStrap</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/circle-check-solid.svg" alt="" class="icon">
+                        <div>
+                            <h3>React JS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    </div>
+                </div>
+                <div class="details-container">
+        
+                    <h2 class="skill-sub-title">BackEnd Development</h2>
+                    <div class="article-container">
+                    <article>
+                        <img src="./images/circle-check-solid.svg" alt="" class="icon">
+                        <div>
+                            <h3>Express JS</h3>
+                            <p>basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/circle-check-solid.svg" alt="" class="icon">
+                        <div>
+                            <h3>Mongo DB</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/circle-check-solid.svg" alt="" class="icon">
+                        <div>
+                            <h3>Firebase</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/circle-check-solid.svg" alt="" class="icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+                </div>
 
+
+            </div>
+            <img src="./images/circle-down-solid.svg" alt="" class="icon arrow" 
+            onclick="location.href='./#projects'">
+        </section>
+
+        <section id="projects">
+            <p class="section-text-p1">Browse my recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="skills-details-container">
+                <div class="details-container color-container">
+                    <img src="./images/certificate-solid.svg" alt="" class="icon project-img">
+                    <h2 class="skill-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btnColor-2 project-btn"
+                         onclick="location.href='https://github.com/kirannarayanks'">
+                         Github
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
     <script src="js/index.js"></script>
